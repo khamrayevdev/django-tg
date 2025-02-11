@@ -1,0 +1,106 @@
+
+body {
+    background-image: url(../landing/images/bg.svg);
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    flex-direction: row;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(69, 116, 186);
+}
+
+#main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#card {
+    margin-top: 20%;
+    max-width: 390px;
+    height: 380px;
+    padding: 25px;
+    border-radius: 5%;
+    background: rgb(30, 30, 30);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+}
+
+
+
+#photo img
+{
+    width: 122px;
+    height: 122px;
+    border-radius: 100%;
+    margin-top: 10%;
+}
+
+#chanel_name {
+    width: 340px;
+    height: 64px;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#chanel_description {
+    width: 340px;
+    height: 70px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#button_join {
+    width: 150px;
+    height: 42px;
+    margin-top: 85px;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 22px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+    line-height: 0;
+    text-align: center;
+    background-color: #15649c;
+}
+
+.shine
+{
+    background-image: linear-gradient(270deg, rgba(100, 181, 239, 0) 48.44%, #64b5ef 75.52%, rgba(100, 181, 239, 0) 100%);
+    background-repeat: no-repeat;
+    animation: bg-move linear 5s infinite;
+}
+
+@-webkit-keyframes bg-move {
+    0%   { background-position: -500px 0; }
+    100% { background-position: 1000px 0; }
+  }
+  @keyframes bg-move {
+    0%   { background-position: -500px 0; }
+    100% { background-position: 1000px 0; }
+  }

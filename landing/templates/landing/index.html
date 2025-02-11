@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swerlw</title>
+    <link rel="stylesheet" href="{% static 'landing/style.css' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'landing/images/favicon-32x32.png' %}">
+</head>
+<body>
+
+    <div id="main">
+        <div id="card">
+            <a id="photo" href="tg://join?invite=VPGc2x5JcLpjMjQy"> 
+                <img src="{% static 'landing/images/2.jpeg' %}" alt="Profile">
+            </a>
+            <div id="chanel_name">
+                <span>
+                    Jo`rabek Hamroyev
+                </span>
+                <span style="font-size: 15px; font-weight:lighter; color:rgb(179, 179, 179) ;line-height: 30px; text-align: center; margin-bottom: 10%;">
+                    @swerlw also @steveai
+                </span>
+            </div>
+            <div id="chanel_description">
+                <span style="margin-top:8%; "> Head of GloryTeam ⚜️</span>
+
+            </div>
+            <a class="shine" style="margin-top: 0%;" id="button_join" href="tg://join?invite=VPGc2x5JcLpjMjQy">
+                <span>Send Message</span>
+            </a>
+        </div>
+    </div>
+    </div>
+    
+    <script src="{% static 'landing/script.js' %}"></script>
+</body>
+</html>
